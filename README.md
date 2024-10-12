@@ -22,7 +22,7 @@ This application serves as a side project where I applied my learning in web dev
 
 ## Live Demo
 
-You can view the live version of this project here: [Simple Bootstrap Page](https://klimentina2709.github.io/ShowcasePortfolioPage/)
+You can view the live version of this project here: [Simple Portfolio Page](https://klimentina2709.github.io/ShowcasePortfolioPage/)
 
 ## Contact:
 
