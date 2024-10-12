@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <nav class="nav-wrapper-color">
+      <div class="nav-wrapper">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero-section">
+      <div class="hero-image">
+        <img
+          id="heroImage"
+          src="https://picsum.photos/800/300?random=1"
+          alt="Hero Image"
+        />
+      </div>
+      <div class="hero-content">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          This is a showcase of my work and projects. Browse through the various
+          sections to learn more about my skills and experiences.
+        </p>
+        <a href="#projects" class="btn waves-effect waves-light"
+          >View Projects</a
+        >
+      </div>
+    </div>
+
+    <div id="projects" class="carousel carousel-slider">
+      <a class="carousel-item" href="#one!">
+        <img
+          id="projectImage1"
+          src="https://picsum.photos/800/300?random=2"
+          alt="Project 1"
+        />
+      </a>
+      <a class="carousel-item" href="#two!">
+        <img
+          id="projectImage2"
+          src="https://picsum.photos/800/300?random=3"
+          alt="Project 2"
+        />
+      </a>
+      <a class="carousel-item" href="#three!">
+        <img
+          id="projectImage3"
+          src="https://picsum.photos/800/300?random=4"
+          alt="Project 3"
+        />
+      </a>
+      <a class="carousel-item" href="#four!">
+        <img
+          id="projectImage4"
+          src="https://picsum.photos/800/300?random=5"
+          alt="Project 4"
+        />
+      </a>
+    </div>
+
+    <div class="container">
+      <h2>Skills & Highlights</h2>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Web Development</span>
+              <p>
+                Proficient in HTML, CSS, JavaScript, and popular frameworks like
+                React and Angular.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Mobile Development</span>
+              <p>
+                Experienced in building mobile applications using React Native
+                and Flutter.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Data Science</span>
+              <p>
+                Skilled in data analysis and visualization using Python, Pandas,
+                and Matplotlib and much more.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Recent Projects</h2>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image">
+              <img
+                id="recentProjectImage1"
+                src="https://picsum.photos/800/300?random=6"
+                alt="Project Image"
+              />
+              <span class="card-title">Project Name 1</span>
+            </div>
+            <div class="card-content">
+              <p>Description of the project or blog post.</p>
+            </div>
+            <div class="card-action">
+              <a href="#" data-project-id="1" class="read-more">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image">
+              <img
+                id="recentProjectImage2"
+                src="https://picsum.photos/800/300?random=7"
+                alt="Project Image"
+              />
+              <span class="card-title">Project Name 2</span>
+            </div>
+            <div class="card-content">
+              <p>Description of the project or blog post.</p>
+            </div>
+            <div class="card-action">
+              <a href="#" data-project-id="2" class="read-more">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Testimonials</h2>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Client Name</span>
+              <p>
+                "Testimonial text goes here. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit."
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Client Name</span>
+              <p>
+                "Another testimonial text. Sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">About Me</h5>
+            <p class="grey-text text-lighten-4">
+              I am a passionate developer with experience in web and mobile
+              development, data science, and more.
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li>
+                <a class="grey-text text-lighten-3" href="index.html">Home</a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="projects.html"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="about.html">About</a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">© 2024 My Portfolio</div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let elems = document.querySelectorAll(".carousel");
+        M.Carousel.init(elems, {
+          fullWidth: true,
+          indicators: true,
+        });
+
+        let instances = M.Carousel.getInstance(elems[0]);
+        setInterval(function () {
+          instances.next();
+        }, 3000);
+      });
+    </script>
+  </body>
+</html>
