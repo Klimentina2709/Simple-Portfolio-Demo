@@ -1,10 +1,10 @@
 # Multi-Page Web Application
 
-This project is a simple multi-page web application created as a side project while I was learning web development. It showcases my first experience with Material-UI and includes various features designed to enhance user experience.
-
 ## Project Overview
 
-This application serves as a side project where I applied my learning in web development. It is a simple portfolio page. Below are some of the key features:
+This is a multi-page personal portfolio website built as part of my web development journey. The project showcases my work and skills through various sections, including a **carousel** for project displays, a **filtering system** for easy navigation, and an **About Me** section. This was my first attempt at building a portfolio, and it allowed me to work with **HTML**, **JavaScript**, and **Materialize CSS** to create a responsive, functional, and visually appealing site.
+
+The project served as an essential starting point in my coding career, providing hands-on experience in structuring web applications, developing interactive elements, and improving user experience.
 
 ## Technologies Used
 
